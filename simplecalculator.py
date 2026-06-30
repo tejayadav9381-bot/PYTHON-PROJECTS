@@ -43,5 +43,4 @@ if __name__ == '__main__':
         user_choice = int(input("Select the operation: "))
         value = calculatorFunction(user_choice)
         print(value)
-        # Update your code below this line
         break

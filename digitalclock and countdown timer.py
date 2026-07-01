@@ -16,8 +16,6 @@ def digital_clock():
         current_time = time.strftime("%H:%M:%S", time.localtime())
         print("\rDigital Clock: " + current_time, end = '')
         time.sleep(1)
-    
-# Solution as follows
 def countdown_timer(seconds):
     """Counts down from a given number of seconds."""
     print("Countdown Timer started!")
